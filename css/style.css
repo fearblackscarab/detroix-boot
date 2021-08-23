@@ -91,8 +91,27 @@
     color: var(--bgColor);
 }
 
-.services, .opportunities,.news{
+.footer-div{
+    height: 700px;
     margin-bottom: 25px;
+}
+
+@media(max-width:400px){
+    .footer-div{
+        padding: 0;
+    }
+}
+
+@media(min-width:768px) and (max-width:904px){
+    .footer-div{
+        height: 750px;
+    }
+}
+
+@media(min-width:1000px){
+    .footer-div{
+        height: 600px;
+    }
 }
 
 .service-list{
@@ -100,7 +119,7 @@
 }
 
 .service-list-item{
-    font-size: calc(13px + (20 - 13) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(13px + (18 - 13) * ((100vw - 300px) / (1600 - 300)));
     margin: 5px 0;
     line-height: 2.1;
 }
@@ -111,7 +130,7 @@
 }
 
 .opp-header{
-    font-size: calc(16px + (23 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .opp-list-item{
